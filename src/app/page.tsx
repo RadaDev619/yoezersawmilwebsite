@@ -21,7 +21,8 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const companyName = "Yoezer Wood Integrated";
-const whatsappNumber = "975XXXXXXXX";
+const whatsappNumber = "97517617896";
+const contactPhoneNumbers = "+975 17 61 78 96 / +975 17612560";
 const defaultWhatsAppMessage =
   "Hello Yoezer Wood Integrated, I want to inquire about your mobile sawmill service.";
 const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
@@ -512,7 +513,7 @@ export default function Home() {
                 </p>
                 <p className="flex items-center gap-2">
                   <Phone aria-hidden="true" size={17} className="text-[#C89B3C]" />
-                  +975 XXXXXXXX
+                  {contactPhoneNumbers}
                 </p>
               </div>
             </div>
